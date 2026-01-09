@@ -1,11 +1,11 @@
 # Graph Convolutional Network for Link Prediction
 This project implements a Graph Convolutional Network (GCN)–based link prediction system using Graph Neural Networks (GNNs).
-The goal is to predict missing or potential links between nodes in a graph by learning structural and feature-based representations, along with quantitative evaluation and visual interpretation of predicted links.
+The objective is to predict missing or potential links between nodes in a graph by learning both structural and feature-based representations, supported by quantitative evaluation and visual interpretation of predictions.
 
 ## Project Overview
-Link prediction is a fundamental problem in graph learning and has applications in social networks, recommendation systems, and knowledge graphs.
-In this project, we train a GCN encoder on a real-world graph dataset to learn node embeddings and predict whether a link should exist between two nodes.
-To enhance interpretability, we visualize the top predicted links over the original graph structure.
+Link prediction is a fundamental problem in graph learning with applications in social networks, recommendation systems, and knowledge graphs.
+In this project, a GCN encoder is trained on a real-world graph dataset to learn node embeddings and predict whether a link should exist between two nodes.
+To improve interpretability, the project includes visualization of high-confidence predicted links over the original graph structure.
 
 ## Key Features
 - Graph-based learning: Uses Graph Convolutional Networks (GCNs)
